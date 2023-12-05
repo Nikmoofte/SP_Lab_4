@@ -3,11 +3,12 @@
 #include <print>
 #include <algorithm>
 #include <string>
+#include <chrono>
 
 #include "stringSortingQueue/stringSortingQueue.hpp"
 #include "factory/factory.hpp"
 
-constexpr size_t numberOfStrings = 123;
+constexpr size_t numberOfStrings = 12;
 
 void sortLess(std::string& str)
 {
@@ -18,6 +19,7 @@ void sortLess(std::string& str)
 int main()
 {
     using namespace std;
+    auto progBegin = chrono::high_resolution_clock::now();
     fstream in("../src/assets/text.txt");
     istream_iterator<char> iter(in);
     std::string text(iter, {});
@@ -52,7 +54,7 @@ int main()
         completeWork[stringInd] = completeWork[stringInd].substr(1, textSize);
     }
 
-    print("{0}", res);
+    print("{0} \n time: {1} sec" , res, chrono::duration<double>(chrono::high_resolution_clock::now() - progBegin).count());
 
     return 0;
 }
