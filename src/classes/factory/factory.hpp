@@ -10,28 +10,29 @@
 class SortingFactory
 {
 public:
-    SortingFactory(stringSorting::queue& queue)
+    SortingFactory(){}
+    
+    std::vector<std::string> operator()(stringSorting::queue& queue)
     {
-
-        threads.reserve(queue.size());
-        toWork(queue);
+        return toWork(queue);
     }
-
 private:
-    void toWork(stringSorting::queue& queue)
+    std::vector<std::string> toWork(stringSorting::queue& queue)
     {
-        size_t i = 0;
+        std::vector<std::string> result;
+        result.reserve(queue.size());
         while(!queue.empty())
         {
             auto threadData = queue.get();
             auto function = threadData.first;
-            auto args = threadData.second;
-            threads.push_back(std::thread(function, std::ref(args)));
-            i++;
+            result.push_back(threadData.second);
+            threads.push_back(std::thread(function, std::ref(result[result.size() - 1])));
+
         }
         for(auto& thread : threads)
             thread.join();
-        
+
+        return result;
     }
 
     std::vector<std::thread> threads;

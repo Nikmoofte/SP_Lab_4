@@ -4,19 +4,19 @@
 #include <queue>
 #include <mutex>
 
-template<class Function, class... Args > 
+template<class Function, class Arg> 
 class workQueue
 {
 public:
     workQueue(){}
  
-    void add(Function&& f, Args&&... args)
+    void add(Function&& f, Arg arg)
     {
         std::lock_guard<std::mutex> guard(ioMutex);
-        _data.push({std::move(f), std::move(args)});
+        _data.push({std::move(f), arg});
     }
 
-    std::pair<Function, Args...> get()
+    std::pair<Function, Arg> get()
     {
         std::lock_guard<std::mutex> guard(ioMutex);
         auto data = _data.front();
@@ -34,9 +34,18 @@ public:
         return _data.size();
     }
 
+    auto begin()
+    {
+        return _data.begin();
+    }
+    auto end()
+    {
+        return _data.end();
+    }
+
 private:
     std::mutex ioMutex;
-    std::queue<std::pair<Function, Args...>> _data;
+    std::queue<std::pair<Function, Arg>> _data;
 };
 
 
