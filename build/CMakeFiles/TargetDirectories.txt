@@ -1,3 +1,0 @@
-C:/Users/yadvi/OneDrive/Рабочий стол/Типо лабы/СП/SP_Lab_4/build/CMakeFiles/lab4.dir
-C:/Users/yadvi/OneDrive/Рабочий стол/Типо лабы/СП/SP_Lab_4/build/CMakeFiles/edit_cache.dir
-C:/Users/yadvi/OneDrive/Рабочий стол/Типо лабы/СП/SP_Lab_4/build/CMakeFiles/rebuild_cache.dir
