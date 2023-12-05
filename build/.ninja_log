@@ -1,0 +1,7 @@
+# ninja log v5
+2	2804	7234335535270941	CMakeFiles/lab4.dir/src/main.cpp.obj	1e6c82114214931e
+1849	2335	7234935777031181	lab4.exe	966824bd75cdddb8
+15	1776	7235108200223932	CMakeFiles/lab4.dir/src/classes/workQueue/workQueue.cpp.obj	d0c0ca1bceae62d2
+24	1892	7235113931745973	CMakeFiles/lab4.dir/src/classes/stringSortingQueue/stringSortingQueue.cpp.obj	170a8092e7b78d75
+3	1660	7235116916839478	CMakeFiles/lab4.dir/src/classes/factory/factory.cpp.obj	dc9ee21abfd01525
+1661	1843	7235116918418893	lab4.exe	5170bdc296602869

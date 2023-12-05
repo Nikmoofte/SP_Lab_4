@@ -1,0 +1,205 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/yadvi/AppData/Local/Programs/LLVM/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        C:/Users/yadvi/OneDrive/Рабочий стол/Типо лабы/СП/SP_Lab_4/build/CMakeFiles/3.28.0-rc4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/yadvi/AppData/Local/Programs/LLVM/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Users/yadvi/OneDrive/Рабочий стол/Типо лабы/СП/SP_Lab_4/build/CMakeFiles/3.28.0-rc4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/yadvi/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/\u0422\u0438\u043f\u043e \u043b\u0430\u0431\u044b/\u0421\u041f/SP_Lab_4/build/CMakeFiles/CMakeScratch/TryCompile-kwjyot"
+      binary: "C:/Users/yadvi/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/\u0422\u0438\u043f\u043e \u043b\u0430\u0431\u044b/\u0421\u041f/SP_Lab_4/build/CMakeFiles/CMakeScratch/TryCompile-kwjyot"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Users/yadvi/AppData/Local/Programs/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/yadvi/OneDrive/Рабочий стол/Типо лабы/СП/SP_Lab_4/build/CMakeFiles/CMakeScratch/TryCompile-kwjyot'
+        
+        Run Build Command(s): C:/Users/yadvi/AppData/Local/Programs/mingw64/bin/ninja.exe -v cmTC_f3603
+        [1/2] C:\\Users\\yadvi\\AppData\\Local\\Programs\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_f3603.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_f3603.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_f3603.dir/CMakeCCompilerABI.c.obj -c C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\yadvi\\AppData\\Local\\Programs\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_f3603.dir/CMakeCCompilerABI.c.obj -o cmTC_f3603.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_f3603.lib -Xlinker /pdb:cmTC_f3603.pdb -Xlinker /version:0.0     && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/yadvi/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/\u0422\u0438\u043f\u043e \u043b\u0430\u0431\u044b/\u0421\u041f/SP_Lab_4/build/CMakeFiles/CMakeScratch/TryCompile-gwk1hg"
+      binary: "C:/Users/yadvi/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/\u0422\u0438\u043f\u043e \u043b\u0430\u0431\u044b/\u0421\u041f/SP_Lab_4/build/CMakeFiles/CMakeScratch/TryCompile-gwk1hg"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Users/yadvi/AppData/Local/Programs/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/yadvi/OneDrive/Рабочий стол/Типо лабы/СП/SP_Lab_4/build/CMakeFiles/CMakeScratch/TryCompile-gwk1hg'
+        
+        Run Build Command(s): C:/Users/yadvi/AppData/Local/Programs/mingw64/bin/ninja.exe -v cmTC_3c040
+        [1/2] C:\\Users\\yadvi\\AppData\\Local\\Programs\\LLVM\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_3c040.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_3c040.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_3c040.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\yadvi\\AppData\\Local\\Programs\\LLVM\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_3c040.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_3c040.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_3c040.lib -Xlinker /pdb:cmTC_3c040.pdb -Xlinker /version:0.0     && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/yadvi/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/\u0422\u0438\u043f\u043e \u043b\u0430\u0431\u044b/\u0421\u041f/SP_Lab_4/build/CMakeFiles/CMakeScratch/TryCompile-qvie96"
+      binary: "C:/Users/yadvi/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/\u0422\u0438\u043f\u043e \u043b\u0430\u0431\u044b/\u0421\u041f/SP_Lab_4/build/CMakeFiles/CMakeScratch/TryCompile-qvie96"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Users/yadvi/AppData/Local/Programs/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/yadvi/OneDrive/Рабочий стол/Типо лабы/СП/SP_Lab_4/build/CMakeFiles/CMakeScratch/TryCompile-qvie96'
+        
+        Run Build Command(s): C:/Users/yadvi/AppData/Local/Programs/mingw64/bin/ninja.exe -v cmTC_65d99
+        [1/2] C:\\Users\\yadvi\\AppData\\Local\\Programs\\LLVM\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_65d99.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_65d99.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_65d99.dir/feature_tests.cxx.obj -c "C:/Users/yadvi/OneDrive/Рабочий стол/Типо лабы/СП/SP_Lab_4/build/CMakeFiles/CMakeScratch/TryCompile-qvie96/feature_tests.cxx"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\yadvi\\AppData\\Local\\Programs\\LLVM\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_65d99.dir/feature_tests.cxx.obj -o cmTC_65d99.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_65d99.lib -Xlinker /pdb:cmTC_65d99.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Users/yadvi/AppData/Local/Programs/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/yadvi/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/\u0422\u0438\u043f\u043e \u043b\u0430\u0431\u044b/\u0421\u041f/SP_Lab_4/build/CMakeFiles/CMakeScratch/TryCompile-4u8ice"
+      binary: "C:/Users/yadvi/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/\u0422\u0438\u043f\u043e \u043b\u0430\u0431\u044b/\u0421\u041f/SP_Lab_4/build/CMakeFiles/CMakeScratch/TryCompile-4u8ice"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Users/yadvi/AppData/Local/Programs/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/yadvi/OneDrive/Рабочий стол/Типо лабы/СП/SP_Lab_4/build/CMakeFiles/CMakeScratch/TryCompile-4u8ice'
+        
+        Run Build Command(s): C:/Users/yadvi/AppData/Local/Programs/mingw64/bin/ninja.exe -v cmTC_8b522
+        [1/2] C:\\Users\\yadvi\\AppData\\Local\\Programs\\LLVM\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_8b522.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_8b522.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_8b522.dir/feature_tests.cxx.obj -c "C:/Users/yadvi/OneDrive/Рабочий стол/Типо лабы/СП/SP_Lab_4/build/CMakeFiles/CMakeScratch/TryCompile-4u8ice/feature_tests.cxx"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\yadvi\\AppData\\Local\\Programs\\LLVM\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_8b522.dir/feature_tests.cxx.obj -o cmTC_8b522.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_8b522.lib -Xlinker /pdb:cmTC_8b522.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+...
